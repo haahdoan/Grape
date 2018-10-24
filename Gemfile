@@ -12,6 +12,9 @@ gem "coffee-rails", "~> 4.2"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 gem "bootsnap", ">= 1.1.0", require: false
+gem "grape"
+gem "grape_on_rails_routes"
+gem "grape-entity"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
